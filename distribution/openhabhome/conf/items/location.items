@@ -1,0 +1,12 @@
+/* KNX Switches */
+DateTime Corridor_Switch (KNX) { knx="1/1/14", channel="location_knx:provider:corridor:switch" }
+DateTime Bedroom_Switch (KNX) { knx="1/1/11", channel="location_knx:provider:bedroom:switch" }
+DateTime Kitchen_Switch (KNX) { knx="1/1/10", channel="location_knx:provider:kitchen:switch" }
+DateTime Backroom_Switch (KNX) { knx="1/1/13", channel="location_knx:provider:backroom:switch" }
+
+/* Smartphone as tracking device by pinging */
+Switch Nexus5 { nh="146.140.217.17", channel="location_network:smartphone:nexus5:ping" }
+
+/* Location Model */
+Locatable Patrick { channel="location:user:patrick:locatable" }
+LocationModel LivingLab { channel="location:model:livinglab:state" }

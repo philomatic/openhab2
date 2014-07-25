@@ -1,0 +1,12 @@
+/* knx location providers */
+location_knx:provider:corridor [ location="LivingLab/Corridor" ]
+location_knx:provider:bedroom [ location="LivingLab/Bedroom" ]
+location_knx:provider:kitchen [ location="LivingLab/Kitchen" ]
+location_knx:provider:backroom [ location="LivingLab/Backroom" ]
+
+/* network ping based location providers */
+location_network:smartphone:nexus5 [ owner="patrick", location="LivingLab" ]
+
+/* location model */
+location:model:livinglab [ locationModel="livinglab.location" ]
+location:user:patrick

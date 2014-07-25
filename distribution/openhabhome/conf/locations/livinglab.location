@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<location:DiscreteLocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:location="http://location/1.0" name="LivingLab">
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.1" name="Outside"/>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.2 //@subLocations.0" name="EntryHall"/>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.6 //@subLocations.3 //@subLocations.5 //@subLocations.4 //@subLocations.1" name="Corridor"/>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.2" name="Bedroom"/>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.2" name="LivingRoom">
+    <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.4/@subLocations.1" name="Carpet"/>
+    <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.4/@subLocations.0" name="Couch"/>
+  </subLocations>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.2" name="Kitchen"/>
+  <subLocations xsi:type="location:DiscreteLocation" adjacentLocations="//@subLocations.2" name="Backroom"/>
+</location:DiscreteLocation>
